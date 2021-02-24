@@ -47,7 +47,7 @@ def othersqrt (number):
 		result=i*i
 		actual=round(result)	
 		if number > actual:
-			#i=i+0.1
+			i=i
 			#print(i,"increasing",actual)
 		elif number < actual:
 			i=i-1.15
